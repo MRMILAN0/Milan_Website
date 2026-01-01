@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Milan Pathak</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" style="font-weight: 700; font-size: 1.2rem;">Milan Pathak</a>
+        </div>
+        <button class="mobile-menu-btn" id="mobile-menu-btn"
+            style="background:none; border:none; color:inherit; font-size:1.5rem; cursor:pointer;">
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="experience.html">Experience</a>
+            <a href="education.html">Education</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                <ion-icon name="moon-outline"></ion-icon>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="section fade-in" style="padding-bottom: 0;">
+        <div class="section-title">
+            <h1>Feature Projects</h1>
+            <p>A collection of my work in aerospace, mechanical, and software engineering.</p>
+        </div>
+    </header>
+
+    <!-- Project 1 -->
+    <section class="parallax-section fade-in" style="background-image: url('Photo_Thesis.png');">
+        <div>
+            <h2>Master Thesis: Thermal Analysis of Electromagnetic Docking</h2>
+            <p>Julius-Maximilians-Universität Würzburg, Germany | <span
+                    style="color: var(--accent-color); font-weight: bold;">2024</span></p>
+            <p>Optimized the thermal performance of the TAMARIW CubeSat docking module.</p>
+
+            <div class="grid"
+                style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); text-align: left;">
+                <div class="card"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2);">
+                    <div class="card-content">
+                        <h3 class="card-title" style="color: white; font-size: 1rem;">Thermal Simulation</h3>
+                        <p style="color: #ddd; font-size: 0.9rem;">Evaluated temperature profiles.</p>
+                    </div>
+                </div>
+                <div class="card"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2);">
+                    <div class="card-content">
+                        <h3 class="card-title" style="color: white; font-size: 1rem;">System Design</h3>
+                        <p style="color: #ddd; font-size: 0.9rem;">Redesigned docking panel with heat sinks.</p>
+                    </div>
+                </div>
+                <div class="card"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2);">
+                    <div class="card-content">
+                        <h3 class="card-title" style="color: white; font-size: 1rem;">Testing</h3>
+                        <p style="color: #ddd; font-size: 0.9rem;">Verified operability at extreme temperatures.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 2 -->
+    <section class="parallax-section fade-in" style="background-image: url('Photo_TDP.jpg');">
+        <div>
+            <h2>Controlled Docking Mechanism Using Electromagnets</h2>
+            <p>Julius-Maximilians-Universität Würzburg, Germany | <span
+                    style="color: var(--accent-color); font-weight: bold;">2023</span></p>
+            <p>Developed and tested an electromagnet-based docking system.</p>
+
+            <div class="grid"
+                style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); text-align: left;">
+                <div class="card"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2);">
+                    <div class="card-content">
+                        <h3 class="card-title" style="color: white; font-size: 1rem;">System Design</h3>
+                        <p style="color: #ddd; font-size: 0.9rem;">Integrated electromagnets for precise docking.</p>
+                    </div>
+                </div>
+                <!-- Add other cards similarly -->
+                <div class="card"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2);">
+                    <div class="card-content">
+                        <h3 class="card-title" style="color: white; font-size: 1rem;">Prototyping</h3>
+                        <p style="color: #ddd; font-size: 0.9rem;">Built and tested CubeSat prototypes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 3 -->
+    <section class="parallax-section fade-in" style="background-image: url('Photo_NOAA.jpg');">
+        <div>
+            <h2>Signal Reception and APT Image Acquisition</h2>
+            <p>Julius-Maximilians-Universität Würzburg, Germany | <span
+                    style="color: var(--accent-color); font-weight: bold;">2022</span></p>
+            <p>Receiving weather images from NOAA satellites using a V-dipole antenna.</p>
+            <div class="grid"
+                style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); text-align: left;">
+                <div class="card"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2);">
+                    <div class="card-content">
+                        <h3 class="card-title" style="color: white; font-size: 1rem;">Antenna Design</h3>
+                        <p style="color: #ddd; font-size: 0.9rem;">Constructed V-dipole antenna for 137 MHz.</p>
+                    </div>
+                </div>
+                <div class="card"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2);">
+                    <div class="card-content">
+                        <h3 class="card-title" style="color: white; font-size: 1rem;">SDR Integration</h3>
+                        <p style="color: #ddd; font-size: 0.9rem;">Used Software Defined Radio for signal processing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 4 (Shell Eco) -->
+    <section class="parallax-section fade-in" style="background-image: url('Photo_Junkiri.jpg');">
+        <div>
+            <h2>Energy Efficient Gasoline Prototype Vehicle</h2>
+            <p>Kathmandu University, Nepal | <span
+                    style="color: var(--accent-color); font-weight: bold;">2019-2020</span></p>
+            <p>Shell Eco Marathon Asia 2019 participant. Team Junkiri.</p>
+            <div class="grid"
+                style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); text-align: left;">
+                <div class="card"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2);">
+                    <div class="card-content">
+                        <h3 class="card-title" style="color: white; font-size: 1rem;">Vehicle Dynamics</h3>
+                        <p style="color: #ddd; font-size: 0.9rem;">Optimized 3-wheel configuration for efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Milan Pathak. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
